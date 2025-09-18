@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import '../styles/main.scss';
 
-const API_URL = 'http://localhost:3001/api/chat';
+// const API_URL = 'http://localhost:3001/api/chat';
+const API_URL = 'https://backend-0lsa.onrender.com/api/chat';
 
 function ChatInterface() {
   const [sessionId, setSessionId] = useState(() => {
